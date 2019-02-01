@@ -7,5 +7,4 @@ exec s6-setuidgid ${WILDFLY_USER} ${WILDFLY_HOME}/bin/standalone.sh \
      -bprivate $bind_address \
      -bmanagement $mgmt_bind_address \
      -Djboss.as.management.blocking.timeout=600 \
-     -Djboss.server.base.dir=${WILDFLY_RUNTIME_BASE_DIR}
      "$@"
