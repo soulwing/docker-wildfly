@@ -10,7 +10,7 @@ ARG S6_URL=${S6_REPO}/${S6_VERSION}/s6-overlay-amd64.tar.gz
 ARG APPS_BASE=/apps
 ENV WILDFLY_USER=wildfly \
     WILDFLY_HOME=${APPS_BASE}/wildfly \
-    WILDFLY_RUNTIME_BASE_DIR=/var/run/wildfly \
+    WILDFLY_RUNTIME_BASE_DIR=/run/wildfly \
     WILDFLY_BIND_INTERFACE=eth0 \
     WILDFLY_HA=false
 
