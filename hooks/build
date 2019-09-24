@@ -6,6 +6,9 @@ if [ -z "$CACHE_TAG" ]; then
 fi
 
 case $CACHE_TAG in
+  15-*)
+    BUILD_WILDFLY_VERSION=15.0.1.Final
+    ;;
   10-*)
     BUILD_WILDFLY_VERSION=10.1.0.Final
     ;;
