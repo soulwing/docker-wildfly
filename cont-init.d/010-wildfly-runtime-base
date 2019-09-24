@@ -1,4 +1,4 @@
-#!/usr/bin/with-contenv /bin/sh
+#!/usr/bin/with-contenv /bin/bash
 
 INSTALLED_BASE_DIR=${WILDFLY_HOME}/standalone.OEM
 

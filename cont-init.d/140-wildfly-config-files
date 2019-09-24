@@ -1,4 +1,4 @@
-#!/usr/bin/with-contenv /bin/sh
+#!/usr/bin/with-contenv /bin/bash
 
 ME="[$(basename $0)]"
 CONFIG_LOCK=/var/run/wildfly-config.lock

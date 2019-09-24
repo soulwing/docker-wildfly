@@ -1,4 +1,4 @@
-#!/usr/bin/with-contenv /bin/sh
+#!/usr/bin/with-contenv /bin/bash
 
 function intf2addr() {
   intf=$1

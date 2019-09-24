@@ -1,4 +1,4 @@
-#!/usr/bin/with-contenv /bin/sh
+#!/usr/bin/with-contenv /bin/bash
 
 CONFIG_LOCK=/var/run/wildfly-config.lock
 CONFIG_DIR=${WILDFLY_CONFIG_DIR:-/etc/wildfly/config.d}
