@@ -2,7 +2,7 @@ ARG JRE_VERSION=11-jre-slim
 
 FROM debian:latest AS builder
 
-ARG WILDFLY_VERSION=18.0.1.Final
+ARG WILDFLY_VERSION=24.0.1.Final
 ARG WILDFLY_URL=http://search.maven.org/remotecontent?filepath=org/wildfly/wildfly-dist/${WILDFLY_VERSION}/wildfly-dist-${WILDFLY_VERSION}.tar.gz
 ARG S6_VERSION=v1.21.4.0
 ARG S6_REPO=https://github.com/just-containers/s6-overlay/releases/download
